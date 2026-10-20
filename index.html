@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My<span>Portfolio</span></h2>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-text">
+            <p>WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span> QURAT UL AIN RAFI</span></h1>
+            <h3> BS Computer Science Student</h3>
+
+            <p>
+              I'm a passionate student who loves turning creative ideas into reality through code. I enjoy exploring the world of programming and designing clean, modern, and visually appealing websites using HTML and CSS. Every project is an opportunity to learn something new, sharpen my skills, and bring my imagination to life one line of code at a time.
+
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+
+        <div class="home-image">
+            <img
+                src="Profileimage.jpg" alt="Profile picture" >
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Bachelor's Degree</h3>
+                <h4>Kohat University of Science and Tchnology</h4>
+                <p>2024 - Present</p>
+                <p>Studying computer science.</p>
+            </div>
+
+            <div class="card">
+                <h3>Intermediate</h3>
+                <h4>Fazaia Inter College Kohat</h4>
+                <p>2020-2022</p>
+                <p>Completed my intermediate education.</p>
+            </div>
+
+            <div class="card">
+                <h3>Matriculation</h3>
+                <h4>Fazaia Inter College Kohat</h4>
+                <p>2018 - 2020</p>
+                <p>Completed my secondary education.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="alternate">
+        <h2 class="heading">My <span>Certificates</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <img
+                    src="python.jpg">
+                <h3>Crash Course Python</h3>
+                <p>Completed a Python programming course on Coursera, gaining foundational knowledge of Python syntax, programming concepts, and problem-solving techniques. This course strengthened my coding skills and inspired me to explore more in software development.
+                </p>
+                <p>Year: 2024</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="html.jpg">
+                <h3>HTML</h3>
+                <p>Completed an HTML course on Coursera, learning the fundamentals of web development, including webpage structure, HTML elements, and semantic markup. This course helped me build a strong foundation for creating well-structured and engaging websites.
+                </p>
+                <p>Year: 2025</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="ai.jpg">
+                <h3>Introduction to Artificial Intelligence</h3>
+                <p>Completed an Artificial Intelligence (AI) course from AdaptX, gaining foundational knowledge of AI concepts, its real-world applications, and its role in modern technology. This course expanded my understanding of AI and inspired me to explore its potential in solving real-world problems.
+                </p>
+                <p>Year: 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="alternate">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <p>Designed and developed a personal portfolio website using HTML and CSS to showcase my skills, projects, certifications, and achievements. This project reflects my creativity, passion for web development, and continuous learning journey.
+                </p>
+                <p class="tags">HTML | CSS </p>
+            </div>
+
+            <div class="card">
+                <h3>Restuarant Management System </h3>
+                <p>Developed a Restaurant Management System using MySQL queries to manage restaurant operations, including menu items, customer orders, and billing. This project strengthened my understanding of database management, SQL queries, and data organization.
+                </p>
+                <p class="tags"> MySQL </p>
+            </div>
+
+            <div class="card">
+                <h3>Scientific Calculator</h3>
+                <p> Developed a Scientific Calculator using C++ to perform basic arithmetic and advanced mathematical operations. This project enhanced my understanding of programming logic, functions, and problem-solving while applying core C++ concepts.
+                </p>
+                <p class="tags"> C++ </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact">
+            <div class="contact-info">
+                <h3>Let's Talk!</h3>
+                <p>I would love to connect and discuss new opportunities.</p>
+
+                <p><strong>Email:</strong></p>
+                <a href="mailto:qurat24k@gmail.com">
+                    qurat24k@gmail.com
+                </a>
+
+                <p><strong>Location:</strong></p>
+                <p>Kohat, Pakistan</p>
+
+                <p><strong>Social Links:</strong></p>
+                <a href="https://github.com/QURATULAIN-RAFI">GitHub</a>
+                <a href="https://www.linkedin.com/in/qurat-ul-ain-rafi-761492424?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a>
+            </div>
+
+            <form action="#contact" method="get">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your message"
+                          rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
